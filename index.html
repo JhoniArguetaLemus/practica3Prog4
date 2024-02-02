@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Practica III</title>
+</head>
+<body>
+
+    <h2>Practica Semana 3</h2>
+
+    <section class="calcularV">
+
+        <h4>Calcula velocidad</h4>
+        <input type="number" id="distancia"  placeholder="Distancia km"/>
+    
+        <br>
+        <input type="number" id="tiempo" placeholder="tiempo en minutos"    />
+         </br>
+    
+        <button onclick="calcularV()">Calcular velocidad</button>
+        </br>
+    
+        <h3 id="result1" ></h3>
+    
+
+
+
+    </section>
+   
+    <section class="clasificarT">
+
+        <h4>Clasificar triangulos</h4>
+        <input type="number" id="lado1"  placeholder="lado1"/>
+    
+        <br>
+        <input type="number" id="lado2" placeholder="lado2"    />
+         </br>
+         <input type="number" id="lado3" placeholder="lado3"    />
+         </br>
+    
+        <button onclick="clasificar()">Clasificar</button>
+        </br>
+    
+        <h3 id="resultTriangulos" ></h3>
+    
+
+
+    </section>
+
+
+
+    <section class="calculadora">
+
+        <h4>Calculadora</h4>
+        <input type="number" id="num1"  placeholder="Num1"/>
+    
+        <br>
+        <input type="number" id="num2" placeholder="Num2"    />
+         </br>
+    
+        
+         <select id="operacion">
+
+            <option value="suma">Sumar</option>
+            <option value="resta">Restar</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+
+         </select>
+        </br>
+
+        <button onclick="calcular()">Calcular</button>
+        </br>
+    
+        <h3 id="resultCalculadora" ></h3>
+    
+
+
+    </section>
+
+    <section class="numPrimo">
+
+        <h4>Número primo</h4>
+        <input type="number" id="num"  placeholder="Num1"/>
+    
+        <br>
+       
+        <button onclick="comprobar()">Comprobar</button>
+        </br>
+    
+        <h3 id="resultPrimo" ></h3>
+    
+
+
+    </section>
+
+  
+
+
+
+
+
+    
+
+
+    <script src="app.js" ></script>
+</body>
+</html>

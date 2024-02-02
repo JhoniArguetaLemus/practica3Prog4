@@ -1,0 +1,37 @@
+
+.calcularV, .clasificarT, .calculadora, .numPrimo{
+    background-color: aquamarine;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+button{
+
+    background-color: black;
+    height: 20px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+h3{
+    background-color: darkcyan;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
